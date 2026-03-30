@@ -114,7 +114,7 @@ ul{
     border:none;
     border-radius: 15px;
     padding: 12px;
-    background-color: rgba(131, 162, 188, 0.467);
+    background-color: #d6e4ebcb;
     box-shadow: 10px 10px 15px #456a7e;
     cursor: pointer;
 
@@ -148,7 +148,7 @@ ul{
 #technical-services{
     border: none;
     border-radius: 15px;
-    background-color: #afc8d5cb;
+    background-color: #d6e4ebcb;
     padding: 12px;
 }
 
@@ -178,7 +178,7 @@ ul{
     margin-top: 5px;
 }
 #myTechStack{
-    background-color:#afc8d5cb ;
+    background-color:#d6e4ebcb ;
     padding: 12px;
     border-radius: 15px;
     
@@ -229,7 +229,7 @@ ul{
 #last-detail-card{
     color: rgb(5, 5, 69);
     font-family: 'Arial Narrow', Arial, sans-serif; 
-    background-color: #456a7ea3; 
+    background-color: #d6e4ebcb; 
     padding: 20px;
     margin: auto;
     border-radius: 15px;
@@ -246,4 +246,10 @@ footer{
     color: white;
     display: flex;
     flex-wrap: wrap;
+}
+
+footer a{
+    color: whitesmoke;
+    font-size: 2em;
+    
 }
