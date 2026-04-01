@@ -119,6 +119,9 @@ ul{
     cursor: pointer;
 
 }
+.project-card h3{
+    font-size: 2em;
+}
 
 .project-card img{
     width: 90%;
@@ -144,6 +147,25 @@ ul{
     text-align: left;
     border: 1px solid;
 }
+.project-card #link-container a{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #072536;
+    transition: 0.3s ease;
+    background-color: #e8ebed;
+    border-radius: 12px;
+    padding: 5px;
+    
+}
+
+.project-card #link-container a:hover{
+    color: #0485d1;
+    background-color: #dae8ee;
+    font-size: 1.4em;
+}
+
 
 #technical-services{
     border: none;
@@ -182,6 +204,7 @@ ul{
     padding: 12px;
     border-radius: 15px;
     
+    
 
 }
 
@@ -189,22 +212,11 @@ ul{
     font-size: 2.2em;
     color: rgb(5, 5, 69);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 5px;
+    
 }
 
-#myTechStack table,th,td{
-    margin: auto;
-    font-size: 1.2em;
-    padding: 5px;
-}
-#myTechStack table td{
-    text-align: left;
-}
-#myTechStack table{
-    border-spacing: 2px;
-    
-    
-}
+
+
 
 @media (max-width: 700px) {
     #myTechStack table{
