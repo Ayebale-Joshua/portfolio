@@ -603,7 +603,7 @@ footer table, footer table tr,footer table td{
     }
 
     body{
-        width: 90%;
+        width: 95%;
         margin: auto;
         text-align: center;
         background-color: var(--charleston-green);
@@ -613,21 +613,21 @@ footer table, footer table tr,footer table td{
         display: flex;
         justify-content: center;
         gap: 20px;
-        margin-top: 25px;
+        margin-top: 20px;
     }
 
     header nav ul{
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 20px;
         justify-content: center;
 
 
     }
 
     header img{
-        height: 200px;
+        height: 120px;
         border: none;
         border-radius: 150px;
     }
@@ -645,12 +645,12 @@ footer table, footer table tr,footer table td{
         color: var(--blue-green);
         text-shadow:1px 0.5px 1px blue;
         transform: translateY(-5px);
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
 
     header h1{
-        font-size: 2.7em;
+        font-size: 2.5em;
         font-family: 'Georgia','Times new roman';
         margin-bottom: 0px;
         color: var(--light-cyan);
@@ -674,12 +674,12 @@ footer table, footer table tr,footer table td{
 
     #home h1{
         font-family: 'verdana','times new roman';
-        font-size: 2.5em;
+        font-size: 2.0em;
         color: var(--light-cyan);
     }
 
     #home p{
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: var(--light-cyan);
         
     }
@@ -720,7 +720,7 @@ footer table, footer table tr,footer table td{
 
     }
     #featured-projects{
-        font-size: 2.2em;
+        font-size: 2.0em;
         color: var(--aliceblue);
         font-family: 'Arial Narrow', Arial, sans-serif;  
     }
@@ -734,7 +734,7 @@ footer table, footer table tr,footer table td{
 
     }
     .project-card h3{
-        font-size: 2em;
+        font-size: 1.7em;
         color: var(--aliceblue);
     }
 
@@ -791,7 +791,7 @@ footer table, footer table tr,footer table td{
     }
 
     #technical-services h3{
-        font-size: 2.2em;
+        font-size: 2.0em;
         color: var(--aliceblue);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -800,18 +800,18 @@ footer table, footer table tr,footer table td{
         text-align: left;
         color:var(--bright-cyan) ;
         margin-bottom: 0px;
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     #technical-services p{
         text-align: left;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-top: 5px;
         color: var(--light-cyan);
     }
 
     #technical-services ul{
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: left;
         list-style-type:circle;
         margin-top: 5px;
@@ -827,7 +827,7 @@ footer table, footer table tr,footer table td{
     }
 
     #myTechStack h3{
-        font-size: 2.2em;
+        font-size: 2.0em;
         color: var(--aliceblue);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         
@@ -852,16 +852,17 @@ footer table, footer table tr,footer table td{
     }
 
     #last-detail-card{
-        color: rgb(5, 5, 69);
+        color: rgb(216, 216, 225);
         font-family: 'Arial Narrow', Arial, sans-serif; 
         background-color:var(--charcoal-gray); 
         padding: 20px;
         margin: auto;
         border-radius: 15px;
+        font-size: 1.2em;
     }
 
     #last-detail-card h3{
-        font-size: 2.2em;
+        font-size: 2.0em;
         color: var(--aliceblue);
         
         
@@ -875,7 +876,7 @@ footer table, footer table tr,footer table td{
         padding: 15px 25px;
         border-radius: 30px;
         box-shadow: 2px 4px 8px rgba(7, 193, 240, 0.2);
-        font-size: 2.3em;
+        font-size: 2.0em;
         cursor: pointer;
         z-index: 10;
 
@@ -889,8 +890,20 @@ footer table, footer table tr,footer table td{
 
     footer a{
         color: whitesmoke;
-        font-size: 1em;
+        font-size: 1.2em;
+        text-decoration: none;
         
+    }
+    footer table{
+        text-align: left;
+    }
+    footer table, footer table tr,footer table td{
+        border: none;
+
+    }
+
+    #quicklinks{
+        border-left: 1px solid white;
     }
     
 }
