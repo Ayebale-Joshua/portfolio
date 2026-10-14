@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Ayebale | CS Portfolio & Tech Consultant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="image-container">
+            <img src="assets/profile_photo.jpg" alt="Joshua Ayebale Profile Photo">
+        </div>
+        <div id="myDetails">
+            <h1>Joshua Ayebale</h1>
+            <p>CS Student • Linux & Embedded Systems Dev • J-Core Labs Lead Consultant</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#technical-services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hr class="divider">
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="reveal-section">
+            <div class="hero-content">
+                <h1>Architecting Scalable Systems & Smart Solutions</h1>
+                <p id="hero-paragraph">Full-Stack Software Engineer | Embedded Hardware Developer | Tech Community Lead</p>
+                <p>Bridging the gap between software engineering, embedded systems, and real-world IT infrastructure. Leading technical transformations through J-Core Labs and building resilient tools for modern digital landscapes.</p>
+                <div id="button-section">
+                    <button><a href="https://wa.me/+256784778551" target="_blank" class="btn-primary">Hire / Collaborate</a></button>
+                    <button><a href="#projects" class="btn-text">Explore Projects</a></button>
+                    <button><a href="assets/Joshua Ayebale_CS_Student_Dev.pdf" download="Joshua_Ayebale_Resume">Download Resume</a></button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Featured Projects -->
+        <section id="projects" class="reveal-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div id="card-container">
+                
+                <!-- Project 1: Wearable Blood Pressure Monitor -->
+                <div class="project-card" data-project="bp-monitor">
+                    <div class="price-tag in-progress">In Progress</div>
+                    <h3>Wearable Blood Pressure Monitor</h3>
+                    <img src="assets/image.png" alt="Embedded System Project">
+                    <p class="card-snippet">An embedded system prototype integrating biomedical sensors with microcontroller logic for continuous health tracking.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('bp-monitor')">View Details</button>
+                        <a href="https://wa.me/+256784778551?text=I%20would%20like%20to%20inquire%20about%20the%20Wearable%20Blood%20Pressure%20Monitor" target="_blank" class="btn-action inquire">Inquire</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: J-Core Labs Platform -->
+                <div class="project-card" data-project="jcore-platform">
+                    <div class="price-tag deployed">Deployed</div>
+                    <h3>J-Core Labs Active Platform</h3>
+                    <img src="assets/jcorelabs.png" alt="J-Core Labs Platform">
+                    <p class="card-snippet">An actively running web production platform built for J-Core Labs, streamlining service bookings and client outreach.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('jcore-platform')">View Details</button>
+                        <a href="https://jcorelabs.example.com" target="_blank" class="btn-action visit">Visit Site</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Emergency Book App -->
+                <div class="project-card" data-project="emergency-app">
+                    <div class="price-tag deployed">Deployed</div>
+                    <h3>Emergency Book Mobile App</h3>
+                    <img src="assets/projects2.png" alt="Emergency Book App">
+                    <p class="card-snippet">A cross-platform mobile contact application engineered using Python, Kivy framework, and an embedded SQLite3 database.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('emergency-app')">View Details</button>
+                        <a href="#github" class="btn-action visit">Try It Out</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Accommodation Portal -->
+                <div class="project-card" data-project="accom-portal">
+                    <div class="price-tag deployed">Deployed</div>
+                    <h3>Accommodation Portal</h3>
+                    <img src="assets/projects3.png" alt="Accommodation Portal">
+                    <p class="card-snippet">A responsive web platform built with HTML5, CSS3, and JavaScript to aggregate and display university hostel listings.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('accom-portal')">View Details</button>
+                        <a href="#github" class="btn-action visit">Visit Site</a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Village Saving System -->
+                <div class="project-card" data-project="village-saving">
+                    <div class="price-tag deployed">Deployed</div>
+                    <h3>Village Saving System</h3>
+                    <img src="assets/project4.png" alt="Village Saving System">
+                    <p class="card-snippet">A Python and Kivy application automating financial calculations with encrypted local data storage and cloud sync.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('village-saving')">View Details</button>
+                        <a href="#github" class="btn-action visit">Try It Out</a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Style Sanctuary Boutique -->
+                <div class="project-card" data-project="style-sanctuary">
+                    <div class="price-tag deployed">Deployed</div>
+                    <h3>Style Sanctuary Boutique</h3>
+                    <img src="assets/project.png" alt="Style Sanctuary">
+                    <p class="card-snippet">A responsive e-commerce web interface enabling customers in Hoima City to browse inventory and connect directly.</p>
+                    <div class="card-action-row">
+                        <button class="btn-details" onclick="openModal('style-sanctuary')">View Details</button>
+                        <a href="#site" class="btn-action visit">Visit Site</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Modal Overlay Pop-out Card Menu -->
+        <div id="projectModal" class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <div id="modalBody">
+                    <!-- Populated dynamically by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="reveal-section">
+            <h3>Education & Professional Background</h3>
+            <div class="education-container">
+                <div class="education-card">
+                    <div class="edu-icon-header">
+                        <ion-icon name="school-outline" class="section-icon"></ion-icon>
+                        <h4>Bachelor of Computer Science</h4>
+                    </div>
+                    <p class="edu-institution">Gulu University, Uganda • Undergraduate</p>
+                    <p class="edu-desc">Focusing on core computing foundations including Data Structures & Algorithms, Graph Theory, Digital Logic Design, Real-Time Systems, and Network Architecture.</p>
+                </div>
+                <div class="education-card">
+                    <div class="edu-icon-header">
+                        <ion-icon name="ribbon-outline" class="section-icon"></ion-icon>
+                        <h4>Certifications & Milestones</h4>
+                    </div>
+                    <ul class="edu-list">
+                        <li><strong>Linux System Administration & Workflows:</strong> Transitioned primary development infrastructure to Ubuntu Linux.</li>
+                        <li><strong>Embedded Systems & Hardware Prototyping:</strong> Arduino, ESP32, and biomedical sensor integration labs.</li>
+                        <li><strong>Networking & Topology Modules:</strong> Practical routing, VLAN configuration, and packet analysis via Cisco Packet Tracer and Wireshark.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Technical Services & Experience -->
+        <section id="technical-services" class="reveal-section">
+            <h3>Technical Services & Experience</h3>
+            <h4>Role</h4>
+            <p>Founder and Lead Technical Consultant at J-Core Labs (Formerly UrbanByte Campus Tech Solutions)</p>
+            <h4>Key Responsibilities</h4>
+            <ul>
+                <li>Deploying, customizing, and optimizing Linux (Ubuntu) and Windows workstation environments for campus and commercial clients.</li>
+                <li>Executing complex hardware diagnostics, file system troubleshooting, and professional data recovery solutions.</li>
+                <li>Designing customized client backup strategies, local network topologies, and IT consultation.</li>
+            </ul>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Technical Stack & Dynamic Proficiency Bars -->
+        <section id="skills" class="reveal-section">
+            <h3>Technical Stack & Creative Proficiencies</h3>
+            <p class="section-subtitle">Real-time proficiency breakdown across programming, networking, systems, and creative tools.</p>
+            
+            <div id="myTechStack">
+                
+                <div class="skill-item" data-proficiency="80">
+                    <div class="skill-info">
+                        <span>Python Programming & Automation</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="85">
+                    <div class="skill-info">
+                        <span>HTML5 / CSS3 / JavaScript (Frontend)</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="80">
+                    <div class="skill-info">
+                        <span>SQL & Relational Database Design</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="60">
+                    <div class="skill-info">
+                        <span>C / C++ (Embedded Systems & Logic)</span>
+                        <span class="percentage">60%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="65">
+                    <div class="skill-info">
+                        <span>Linux Systems (Ubuntu Administration)</span>
+                        <span class="percentage">65%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="65%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="65">
+                    <div class="skill-info">
+                        <span>Cisco Packet Tracer & Networking</span>
+                        <span class="percentage">65%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="65%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="45">
+                    <div class="skill-info">
+                        <span>Dart & Flutter (Mobile Development)</span>
+                        <span class="percentage">45%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="45%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item" data-proficiency="65">
+                    <div class="skill-info">
+                        <span>Motion Design & Graphics (Penpot, Alight Motion, Flipaclip)</span>
+                        <span class="percentage">65%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" style="width: 0%;" data-target="65%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Leadership & J-Core Labs Hub -->
+        <section id="last-details" class="reveal-section">
+            <div id="last-detail-card">
+                <h3>Leadership & Community</h3>
+                <p>Actively organize inter-university developer sessions and peer mentoring circles to facilitate collaborative coding, technical troubleshooting, and project sharing. Leveraging prior educator experience in science and mathematics to mentor incoming tech enthusiasts.</p>
+                <div>
+                    <a href="#groupgithub" class="text-link">View Collaborative Group Projects</a>
+                </div>
+            </div>
+
+            <div id="last-detail-card" class="hub-card-expanded">
+                <h3>J-Core Labs Hub</h3>
+                <address class="address-box">
+                    <p><strong>Location:</strong> Gulu City, Uganda</p>
+                    <p><strong>Service Reach:</strong> On-site support for Gulu University & Remote Software Consulting</p>
+                    <p><strong>WhatsApp Business:</strong> +256-758-477201</p>
+                    <p><strong>Email:</strong> csmajor003@gmail.com</p>
+                    <p class="hub-link-wrapper">
+                        <a href="https://joshua-ayebale.github.io/j_core_labs/" target="_blank" class="live-site-link">Visit J-Core Labs Official Website</a>
+                    </p>
+                </address>
+            </div>
+        </section>
+
+        <!-- Floating Chat Icon -->
+        <div>
+           <a href="https://wa.me/+256784778551" target="_blank" aria-label="Chat on WhatsApp">
+               <ion-icon id="chat-with-me" name="logo-whatsapp"></ion-icon>
+           </a>
+        </div>
+    </main>
+
+    <hr class="divider">
+    
+    <footer id="contact">
+        <div class="footer-col">
+            <h3>Contact & Socials</h3>
+            <table class="footer-table">
+                <tr><td><ion-icon name="mail-outline"></ion-icon></td><td>ayebalejoshua003@gmail.com</td></tr>
+                <tr><td><ion-icon name="logo-whatsapp"></ion-icon></td><td>+256-784778551</td></tr>
+                <tr><td><ion-icon name="logo-linkedin"></ion-icon></td><td>Ayebale Joshua</td></tr>
+                <tr><td><ion-icon name="call-outline"></ion-icon></td><td>+256-784778551</td></tr>
+            </table>
+        </div>
+
+        <div class="footer-col" id="quicklinks">
+            <h3>Quick Links</h3>
+            <table class="footer-table">
+                <tr><td><ion-icon name="logo-google"></ion-icon></td><td><a href="https://www.google.com" target="_blank">Google</a></td></tr>
+                <tr><td><ion-icon name="school-outline"></ion-icon></td><td><a href="https://www.gu.ac.ug" target="_blank">Gulu University</a></td></tr>
+                <tr><td><ion-icon name="laptop-outline"></ion-icon></td><td><a href="https://jcorelabs.example.com" target="_blank">J-Core Labs Solutions</a></td></tr>
+            </table>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
